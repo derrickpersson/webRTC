@@ -6,6 +6,7 @@
 // Audio will not be streamed because it is set to "audio: false" by default.
 const mediaStreamConstraints = {
   video: true,
+  audio: true,
 };
 
 // Set up to exchange only video.
